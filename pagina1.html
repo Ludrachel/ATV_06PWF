@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pag1</title>
+    <link rel="stylesheet" href="pgns.css">
+</head>
+<body>
+    <h4 id = "topo">links para acessar outras páginas</h4>
+    <ol>
+        <li><a href="pagina2.html">Página 2</a></li>
+        <li><a href="pagina3.html">Página 3</a></li>
+    </ol>
+
+    <h4>links para escurecer ou clarear a página</h4>
+    
+    <ul>
+        <li>
+            <a href = "#" onclick="escurecerPagina();">Escurecer página</a>
+        </li>
+        <li>
+            <a href = "#" onclick="clarearPagina();">Clarear página</a>
+        </li>
+    </ul>
+
+    <script>
+        function escurecerPagina() {
+            document.body.style.backgroundColor = 'black';
+        }
+
+        function clarearPagina() {
+            document.body.style.backgroundColor = 'white';
+        }
+    </script>
+
+    <h1>Redes Socias</h1>
+
+    <p>O QUE SÃO ?</p>
+
+    <p> Redes sociais, no ambiente online, são sites e aplicativos que operam em níveis diversos
+        como profissional, de relacionamento, dentre outros , mas sempre permitindo o compartilhamento
+        de informações entre pessoas e/ou empresas.</p>
+
+    <p>QUAL O PAPEL DAS REDES SOCIAIS NA VIDA DAS PESSOAS ?</p>
+
+    <p>
+        As redes sociais permitem uma maior interatividade entre povos distintos, encurtam a distância 
+        entre pessoas, facilitando o intercâmbio cultural. É notório o baixo custo que as redes sociais
+        oferecem para usuários que se propõem a utilizar as mesmas para se comunicar com diversas pessoas.
+    </p>
+
+    <p>QUAL A REDE SOCIAL MAIS USADA ?</p>
+
+    <p> o Facebook é a rede social mais utilizada no mundo. Atualmente, a rede da Meta soma mais de 2,9 bilhões
+        de contas cadastradas, seguida pelo Youtube, com 2,5 bilhões e só então o Instagram e o WhatsApp,
+        empatados com 2 bilhões.</p>
+
+    <p>QUAL É O IMPACTO DAS REDES SOCIAS ?</p>
+
+    <p>“Entre as consequências, temos a ansiedade, a depressão, a sensação de isolamento, o comportamento agressivo,
+        o esgotamento e a obsessão com o corpo.</p>
+
+    <hr>
+
+    <h1>LINKS DE ALGUMAS REDES SOCIAIS</h1>
+
+    <ul class = "icones-sociais">
+        <li>
+            <a class = "facebook" href = "https://www.facebook.com/">
+                <img src = "imgs/facebook_resized.png" alt="Facebook"></a>
+        </li>
+        <li>
+            <a class = "github" href = "https://www.github.com/">
+                <img src = "imgs/github_resized.png" alt="Github"></a>
+        </li>
+        <li>
+            <a class = "instagram" href = "https://www.instagram.com/">
+                <img src = "imgs/instagram_resized.png" alt="Instagram"></a>
+        </li>
+        <li>
+            <a class = "tiktok" href = "https://www.tiktok.com/">
+                <img src = "imgs/tiktok_resized.png" alt="Tiktok"></a>
+        </li>
+
+    </ul>
+
+    <a href = "#topo">Voltar para o topo da página</a>
+
+</body>
+</html>

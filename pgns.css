@@ -1,0 +1,59 @@
+body {
+    font-family: Arial;
+    transition: background-color 0.5s ease;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover , a:active {
+    color: rgb(158, 78, 32);
+    text-decoration: none;
+    background-color: rgb(214, 186, 186);
+}
+
+h4 {
+    color: blueviolet;
+}
+
+h1 {
+    background-color: rgb(164, 204, 231) ;
+}
+
+
+.icones-sociais  a {
+    width: 20px;
+    height: 20px;
+    display: inline;
+    vertical-align: middle;
+    margin: 5px;
+    padding: 2px;
+}
+
+.facebook {
+list-style-image: url('imgs/facebook.png');
+}
+
+.github {
+    list-style-image: url('imgs/github_resized.png');
+}
+
+.instagram {
+    list-style-image: url('imgs/instagram_resized.png');
+}
+
+.tiktok {
+    list-style-image: url('imgs/tiktok_resized.png');
+}
+
